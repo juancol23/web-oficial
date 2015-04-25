@@ -1,0 +1,489 @@
+::selection {
+background:black;
+color:aliceblue;
+}
+
+::-moz-selection {
+background:black;
+color:aliceblue;
+}
+
+::-webkit-selection {
+background:black;
+color:aliceblue;
+}
+
+
+nav{
+	font-family: 'cursive', serif;
+	font-style: italic;
+	font-size: 16px;
+}
+/*=======================slider=====================*/
+ #slider{
+ 	padding: 5.6em 0 0 0;
+ }
+
+
+/*=======================MENU=====================*/
+.logo{
+	background: white;
+    color: black;
+    font-size: 1.7em;
+    margin-right: 8em;
+    margin-left: 1em;
+}
+
+
+nav a{
+    color: black !important;
+}
+
+nav ul{
+	background: #28201E;
+    /*background: #6D6D6E;*/
+    
+    background: white;
+	
+    overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	transition: max-height 0.4s;
+	-webkit-transition: max-height 0.4s;
+}
+	
+nav ul li{
+	display: inline-block;
+	padding: .4em;
+    margin-right: 2.2em;
+
+	-webkit-transition:.3s all;
+	-o-transition:.3s all;
+	transition:.3s all;
+ }
+nav ul li:hover{
+	background: white;
+	-webkit-transition:.3s all;
+	-o-transition:.3s all;
+	transition:.3s all;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+	
+.handle{
+	width: 100%;
+	background: #353736;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1em .7em;
+	cursor: pointer;
+	color:white;
+	display:none;
+	color: white;
+
+}
+@media screen and (max-width: 580px){
+	nav ul{
+		/*esconde todo el ul del nav*/
+		max-height: 0em;
+	}
+	.showing{
+		/*muestra el menu*/
+		max-height: 20em;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 1em;
+	}
+	.handle{
+		display: block	
+	}
+    
+    .logo{
+        margin-right: 0em !important;
+        margin-left: 0em !important;
+    }
+}
+/*======================lookatthatface======================*/
+#lookatthatface{
+    padding: 18em 0em;
+    width: 100%; 
+    height: 100%;
+    background-image: url("../images/look.jpg");
+    /*background-attachment: fixed;*/
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+#lookatthatface .tittle{
+    /* margin-top: 16em;
+    margin-bottom: 4em; */
+    color: white;
+    font-size: 5em;
+    
+}
+#lookatthatface .subtitle{
+    /* margin-top: 16em;
+    margin-bottom: 4em; */
+    color: white;
+    font-size: 1.8em;
+
+    
+}
+
+/*======================JUM======================*/
+.jum{
+	  margin-top: 6em;
+}
+/*=======================HEADER=====================*/
+#header{ 
+	background-image: url(../images/app.jpg);
+	background-repeat: no-repeat;	
+	background-size: cover;
+	height: 30em;
+	background-attachment: fixed;
+	background-position: 50% 50%;	
+	margin: 0;
+
+}
+.fondo-black-tranparente{
+     background: rgba(104, 110, 111, 0.4);
+    -webkit-transition: .4s;
+}
+.fondo-black-tranparente:hover{
+	background: rgba(3, 13, 15, 0.4);
+	-webkit-transition:.4s;
+}
+.white{
+	color: white;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+#header .tittle{
+	font-size: 3em;
+	font-weight: 700;
+}
+#header .subtitle{
+	font-size: 1.4em;
+	font-weight: 500;
+}
+
+
+
+#testimonios{
+	  padding: 0em 0 2em 0;
+	 
+}
+
+/*======================LINEAS=======================*/
+#lineas{
+	padding: 7em 0 2.5em 0 ;
+}
+#lineas .tittle:first-child {
+	font-size: 3em;
+}
+ 
+.lineas-tittle{
+	font-size: 1.6em;
+    color: #111;
+}
+.lineas-role{
+	font-size: 1.1em;
+	color: #aaa;
+}
+/*=======================OPCCION=====================*/
+#opccion{
+	padding: 5.6em 0 4.3em 0;
+}
+#opccion .tittle{
+    color: #5a5a5a;
+    font-weight: 600;
+}
+#opccion .subtitle{
+    color: #5a5a5a;
+    font-weight: 600;
+
+}
+
+/*=========PORTAFOLIO========*/
+#portfolio{
+	padding: 5.6em 0 4.3em 0;
+    background: rgba(103, 92, 92, 0.04);
+}
+#portfolio .tittle{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 2.6em;
+}
+#portfolio .grayclaro{
+    padding: 0em;    
+    color: darkgray;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+#portfolio .subtitle{
+    padding: 0em;    
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 1.3em;
+
+}
+.grayclaro{
+    padding: 0em;    
+    color: darkgray;
+    font-weight: 600;
+    font-size: 1.5em;
+
+}
+
+#portfolio ul li a{
+    color: dimgray;
+    font-size: 4em;
+}
+
+/*=======================TEAM=====================*/
+#team{
+	padding: 7em 0em 0em 0em;
+    
+
+}
+section .team{
+	/*background-image: url("../images/team.jpg") !important;*/
+   /* background: rgb(234, 234, 234);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+}
+.black-transparente{
+	background: rgba(0, 0, 0, 0.53);
+}
+#team .tittle{
+    color: rgba(0, 0, 6, 0.5);
+	font-size: 2em;
+}
+
+#team .subtitle{
+    color: rgba(0, 0, 6, 0.5);
+	font-size: 1em;
+	line-height:2em;
+}
+.tittle-5{
+	font-size: 1.4em;
+}
+
+.i-b{
+	display: inline-block;
+}
+.m-small{
+	margin: 1.2em 0;
+}
+.team-image{
+	right: 0;
+    margin: 0 0 15px;
+}
+.caption{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(24,188,156,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;    
+}	
+.caption:hover{
+	opacity: 1;
+	
+}
+.detalle-team{
+	text-align: center
+}
+
+.team-name{
+ 	font-size: 1.8em;
+    
+     
+}
+.team-role{
+	font-size: 1em;
+	color: #aaa;
+	padding-bottom: 2em;
+}
+.team-saludo{
+    font-size: 1.2em;
+    color: rgba(0, 0, 6, 0.5);
+}
+
+
+
+
+/*====================Work========================*/
+.small{
+	  max-width: 100px;
+}
+
+
+/*====================Footer=============================*/
+footer {
+    color: #fff;
+}
+footer a{
+	color: white;
+	font-size: 3.2em; 
+}
+
+footer a:hover{
+	color: white; 
+}
+
+
+footer h3 {
+    margin-bottom: 30px;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    background: #49515a;
+}
+
+footer .footer-col{
+    margin-bottom: 50px;
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: rgba(255, 250, 250, 1);
+    color: rgb(2, 2, 2);
+}
+
+
+
+/*====================Modal=============================*/
+.pointer{
+    cursor: pointer
+}
+.arl{
+	  position: fixed;
+	  right: 2em;
+	  top: 2em; 	   
+	  padding: 1em;
+	  font-size: 1.2em;
+}
+.icono{
+	top: .4em;
+	position: absolute;
+	left: 1.4em;
+	font-size: 7em;
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 580px){
+	#team {
+	  padding: 3.4em 0 2.5em 0;
+	}
+	#team .tittle {
+	  font-size: 1.4em;
+	}
+	#team .subtitle {
+	  font-size: 1em;
+	  line-height: 2em;
+	}
+	#team br{
+		display: none
+	}
+	#opccion{
+		padding: 3.4em 0 2.5em 0;
+		text-align: center;
+	}
+	#opccion .tittle{
+		font-size: 1.7em;
+	}
+	#opccion .subtitle{
+		font-size: 1em;
+		line-height:2em;
+	}
+}
+@media screen and (max-width: 580px){	
+	#opccion{
+		padding: 3.4em 0 3.4em 0;
+		text-align: center;
+	}
+	 
+	#opccion .tittle{
+		font-size: 1.7em;
+	}
+	#opccion .subtitle{
+		font-size: 1em;
+		line-height:2em;
+	}
+}
+@media screen and (max-width: 768px){	
+	#opccion{
+		text-align: center;
+	}	 
+	#opccion br{
+		display: none;
+	}
+	#opccion .tittle{
+		font-size: 1.7em;
+	}
+	#opccion .subtitle{
+		font-size: 1em;
+		line-height:2em;
+	}
+}
+/*Menu*/
+@media only screen and (min-width: 781px) and (max-width: 1080px){
+    .logo{   
+        font-size: 1.6em;
+        margin-right: .5em;
+        margin-left: .6em;
+    }
+     nav ul li{
+        display: inline-block;
+        padding: .4em;
+        margin-right: .3em;
+        -webkit-transition:.3s all;
+        -o-transition:.3s all;
+        transition:.3s all;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 780px){
+    .logo{   
+        font-size: 1.6em;
+        margin-right: 7em;
+        margin-left: 7em;
+         display: block;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: .4em;
+        margin-right: 0em;
+        -webkit-transition:.3s all;
+        -o-transition:.3s all;
+        transition:.3s all;
+    }
+   
+}
